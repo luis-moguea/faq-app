@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #af67e9;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/bg-pattern-desktop.svg);
+    font-size: 11px;
+    height: 420px;
+    width: 760px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.image--main {
+    width: 350px;
+    margin-left: -20%;
+}
+
+.main-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 0;
+}
+
+.list {
+    height: 100%;
+    padding: 1em;
+    margin-right: 40px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.concept__text {
+    margin-top: 0;
+}
