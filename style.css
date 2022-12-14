@@ -11,19 +11,18 @@ body {
 
 .main {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-image: url(images/bg-pattern-desktop.svg);
     font-size: 11px;
     height: 420px;
-    width: 760px;
+    width: 650px;
     overflow: hidden;
     border-radius: 20px;
     background-color: #ffffff;
 }
 
 .image--main {
-    width: 350px;
+    width: 300px;
     margin-left: -20%;
 }
 
@@ -31,16 +30,22 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between; 
-    margin-bottom: 0;
 }
 
 .list {
     height: 100%;
-    padding: 1em;
-    margin-right: 40px;
-    padding-left: 0;
-    margin-bottom: 20px;
+    width: 250px;
+    margin-top: 18%;
 }
+
+ul {
+    width: 100%;
+}
+
+.faq--list {
+    width: 100%;
+}
+
 
 li {
     list-style-type: none;
@@ -48,4 +53,5 @@ li {
 
 .concept__text {
     margin-top: 0;
+    display: none;
 }
