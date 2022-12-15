@@ -38,6 +38,14 @@ body {
     margin-top: 18%;
 }
 
+.row {
+    height: 8px;
+    width: 10px;
+    margin-top: 13px;
+    fill: #dd5d5d;
+    cursor: pointer;
+}
+
 ul {
     width: 100%;
 }
@@ -52,6 +60,15 @@ li {
 }
 
 .concept__text {
-    margin-top: 0;
     display: none;
+}
+
+.text {
+    display: contents;
+    transition: 0.08s;
+}
+
+.row-rotate {
+    transform: rotate(180deg);
+    transition: 0.8s;
 }
