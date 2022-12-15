@@ -26,16 +26,28 @@ body {
     margin-left: -20%;
 }
 
-.main-list {
+.questions {
     width: 100%;
     display: flex;
     justify-content: space-between; 
 }
 
-.list {
+.main__list {
     height: 100%;
-    width: 250px;
-    margin-top: 18%;
+    width: 220px;
+    margin-top: 25%;
+}
+
+.questions__text{
+    margin-bottom: 0;
+}
+
+.answers{
+    display: none;
+}
+
+.active {
+    display: contents;
 }
 
 .row {
@@ -46,22 +58,6 @@ body {
     cursor: pointer;
 }
 
-ul {
-    width: 100%;
-}
-
-.faq--list {
-    width: 100%;
-}
-
-
-li {
-    list-style-type: none;
-}
-
-.concept__text {
-    display: none;
-}
 
 .text {
     display: contents;
