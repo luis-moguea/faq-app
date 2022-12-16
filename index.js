@@ -14,4 +14,3 @@ const questions = document.querySelectorAll(".questions__text")
 
 
 
-
