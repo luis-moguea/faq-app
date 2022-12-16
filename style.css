@@ -22,24 +22,36 @@ body {
 }
 
 .image--main {
-    width: 300px;
+    width: 330px;
     margin-left: -20%;
 }
 
 .questions {
     width: 100%;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    cursor: pointer; 
 }
 
 .main__list {
     height: 100%;
-    width: 220px;
-    margin-top: 25%;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20%;
+}
+
+h2{
+    font-size: 20px;
 }
 
 .questions__text{
     margin-bottom: 0;
+    font-size: 11px;
+}
+
+.text-bold{
+    font-weight: bold;
+    transition: 0.01s;
 }
 
 .answers{
@@ -48,6 +60,7 @@ body {
 
 .active {
     display: contents;
+    color: #dd5d5d;
 }
 
 .row {
@@ -56,12 +69,6 @@ body {
     margin-top: 13px;
     fill: #dd5d5d;
     cursor: pointer;
-}
-
-
-.text {
-    display: contents;
-    transition: 0.08s;
 }
 
 .row-rotate {
