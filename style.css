@@ -14,8 +14,8 @@ body {
     align-items: center;
     background-image: url(images/bg-pattern-desktop.svg);
     font-size: 11px;
-    height: 420px;
-    width: 650px;
+    height: 350px;
+    width: 670px;
     overflow: hidden;
     border-radius: 20px;
     background-color: #ffffff;
@@ -36,8 +36,8 @@ body {
 .main__list {
     height: 100%;
     width: 250px;
-    margin-left: 20px;
-    margin-top: 20%;
+    margin-left: 10px;
+    margin-top: 8%;
 }
 
 h2{
@@ -61,6 +61,7 @@ h2{
 .active {
     display: contents;
     color: #dd5d5d;
+    font-size: 10px;
 }
 
 .row {
